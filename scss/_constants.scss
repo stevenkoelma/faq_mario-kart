@@ -1,0 +1,17 @@
+/* Colors */
+
+$white: #fff;
+$mario-red: #ff2c00;
+$grass-green: #2e8b57;
+$sky-blue: #87ceeb;
+$sun-yellow: #ffe208;
+$road-grey: #696969;
+$accordion-body: #62a388;
+
+/* MIXINS */
+@mixin sunbeam ($deg) {
+    transform: translate(-50%, 50%) rotate($deg)
+}
+
+
+

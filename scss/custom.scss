@@ -1,0 +1,50 @@
+@import "./keyframes", "./constants", "/bootstrap/css/bootstrap.css",
+  url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap"),
+  "./animations", "./accordion";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: $grass-green;
+  color: $white;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background: $sky-blue;
+  height: 225px;
+}
+
+h1 {
+  position: relative;
+  top: 40%;
+  font-family: "Catamaran", sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $white;
+}
+
+small {
+  border-bottom: 2px dotted $mario-red;
+}
+.header-img {
+  margin-left: 15px;
+}
+
+.grid-container {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  .headeranimations {
+    display: none;
+  }
+}
