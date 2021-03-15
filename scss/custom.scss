@@ -27,13 +27,10 @@ h1 {
   -webkit-text-stroke-color: $white;
 }
 
-
-
 small {
-  border-bottom: 2px dotted $mario-red;
-  
-  
+  border-bottom: 4px dotted $mario-red;
 }
+
 .header-img {
   margin-left: 15px;
 }
@@ -44,8 +41,6 @@ small {
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
 }
-
-
 
 /* MEDIA QUERIES */
 
