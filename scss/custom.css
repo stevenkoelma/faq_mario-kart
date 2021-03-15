@@ -54,6 +54,25 @@
     transform: translateX(1800px);
   }
 }
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  @-webkit-keyframes drive {
+    from {
+      transform: translateX(-50px);
+    }
+    to {
+      transform: translateX(800px);
+    }
+  }
+  @keyframes drive {
+    from {
+      transform: translateX(-50px);
+    }
+    to {
+      transform: translateX(800px);
+    }
+  }
+}
 /* Colors */
 /* MIXINS */
 /* HEADER ANIMATION */
