@@ -1,4 +1,4 @@
-@import "./keyframes", "./constants", 
+@import "./keyframes", "./constants",
   url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap"),
   "./animations", "./accordion";
 
@@ -26,7 +26,6 @@ h1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $white;
 }
-
 
 small {
   border-bottom: 4px dotted $mario-red;

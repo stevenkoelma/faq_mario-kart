@@ -1,41 +1,41 @@
 /* CUSTOMIZE BOOTSTRAP */
 .text-muted {
-    color: $mario-red;
-  }
-  .accordion-item,
-  .accordion-button {
-    color: $white;
-  }
-  
-  .accordion-button:not(.collapsed) {
-    color: $white;
-    background-color: $grass-green;
-    border-color: $white;
-    text-align: center;
-  }
-  
-  .accordion-button:focus {
-    border-color: $white;
-    box-shadow: none;
-  }
-  
-  .accordion-button {
-    border-color: $white;
-  }
-  
-  .accordion-button::after {
-    background-image: url("../img/plus.png");
-  }
-  
-  .accordion-button:not(.collapsed)::after {
-    background-image: url("../img/min.png");
-  }
-  
-  .accordion-body {
-    display: flex;
-    flex-direction: column;
-    background-color: $accordion-body;
-    box-shadow: 5px;
-    font-family: "Garamond", sans-serif;
-    font-weight: 100;
-  }
+  color: $mario-red;
+}
+.accordion-item,
+.accordion-button {
+  color: $white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: $white;
+  background-color: $grass-green;
+  border-color: $white;
+  text-align: center;
+}
+
+.accordion-button:focus {
+  border-color: $white;
+  box-shadow: none;
+}
+
+.accordion-button {
+  border-color: $white;
+}
+
+.accordion-button::after {
+  background-image: url("../img/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/min.png");
+}
+
+.accordion-body {
+  display: flex;
+  flex-direction: column;
+  background-color: $accordion-body;
+  box-shadow: 5px;
+  font-family: "Garamond", sans-serif;
+  font-weight: 100;
+}
