@@ -6,25 +6,12 @@ const image = document.createElement("img");
 animationButton.forEach((button) => {
   button.addEventListener("click", (event) => {
     createImageElement();
+    const character = event.target.value;
+    createCharacter(character);
 
-    if (event.target.value === "luigi") {
-      createLuigi();
-    }
-
-    if (event.target.value === "bowser") {
-      createBowser();
-    }
-
-    if (event.target.value === "yoshi") {
-      createYoshi();
-    }
-
-    if (event.target.value === "donkeykong") {
-      createDonkeyKong();
-    }
     setTimeout(() => {
       image.remove();
-    }, 4000);
+    }, 5000);
   });
 });
 
@@ -35,24 +22,8 @@ const createImageElement = () => {
   image.classList.add("character-animation");
 };
 
-/* CHARACTERS */
-const createLuigi = () => {
-  image.src = "/img/luigi.png";
+/* CHARACTER */
+const createCharacter = (character) => {
+  image.src = `/img/${character}.png`;
   image.width = "200";
 };
-
-const createBowser = () => {
-  image.src = "/img/bowser.png";
-  image.width = "200";
-};
-
-const createYoshi = () => {
-  image.src = "/img/yoshi.png";
-  image.width = "200";
-};
-
-const createDonkeyKong = () => {
-  image.src = "/img/donkeykong.png";
-  image.width = "200";
-};
-
