@@ -240,11 +240,11 @@
 }
 
 .accordion-button::after {
-  background-image: url("/img/plus.png");
+  background-image: url("../img/plus.png");
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url("/img/min.png");
+  background-image: url("../img/min.png");
 }
 
 .accordion-body {
