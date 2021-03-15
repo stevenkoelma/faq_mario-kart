@@ -24,6 +24,6 @@ const createImageElement = () => {
 
 /* CHARACTER */
 const createCharacter = (character) => {
-  image.src = `/img/${character}.png`;
+  image.src = `./img/${character}.png`;
   image.width = "200";
 };
