@@ -1,6 +1,6 @@
 # faq mario-kart
 
-![image](https://i.gyazo.com/0d9bf48378b999473bfa409752dca2e2.png)
+![image](https://gyazo.com/ab4a9ea0e9d647e27d9455f4f1b70054)
 
 * **Take a look:** [FAQ - Mario Kart](https://faq-mario-kart.netlify.app/)
 
